@@ -137,9 +137,11 @@
             // textBox8
             // 
             textBox8.Location = new Point(191, 337);
+            textBox8.MaxLength = 11;
             textBox8.Name = "textBox8";
             textBox8.Size = new Size(161, 30);
             textBox8.TabIndex = 12;
+            textBox8.Text = "0";
             // 
             // label8
             // 
@@ -164,6 +166,7 @@
             // textBox5
             // 
             textBox5.Location = new Point(191, 284);
+            textBox5.MaxLength = 2;
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(161, 30);
             textBox5.TabIndex = 9;

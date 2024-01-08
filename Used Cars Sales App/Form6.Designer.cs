@@ -102,6 +102,7 @@
             // 
             // comboBox4
             // 
+            comboBox4.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox4.FormattingEnabled = true;
             comboBox4.Location = new Point(280, 467);
             comboBox4.Name = "comboBox4";
@@ -120,6 +121,7 @@
             // 
             // comboBox3
             // 
+            comboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox3.FormattingEnabled = true;
             comboBox3.Location = new Point(280, 412);
             comboBox3.Name = "comboBox3";
@@ -128,6 +130,7 @@
             // 
             // comboBox1
             // 
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox1.FormattingEnabled = true;
             comboBox1.Location = new Point(280, 249);
             comboBox1.Name = "comboBox1";
@@ -157,6 +160,7 @@
             // 
             // comboBox2
             // 
+            comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox2.FormattingEnabled = true;
             comboBox2.Location = new Point(280, 312);
             comboBox2.Name = "comboBox2";
@@ -180,6 +184,7 @@
             // textBox3
             // 
             textBox3.Location = new Point(280, 145);
+            textBox3.MaxLength = 4;
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(151, 30);
             textBox3.TabIndex = 14;
@@ -342,7 +347,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackgroundImage = Used_Cars_Sales_App.Properties.Resources.electric;
+            pictureBox1.BackgroundImage = Properties.Resources.electric;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Location = new Point(42, 43);
             pictureBox1.Name = "pictureBox1";
@@ -354,7 +359,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Used_Cars_Sales_App.Properties.Resources.N_logo;
+            BackgroundImage = Properties.Resources.N_logo;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1215, 824);
             Controls.Add(groupBox2);

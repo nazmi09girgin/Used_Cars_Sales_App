@@ -50,6 +50,7 @@
             // 
             // comboBox1
             // 
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox1.FormattingEnabled = true;
             comboBox1.Location = new Point(194, 63);
             comboBox1.Name = "comboBox1";
@@ -137,7 +138,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackgroundImage = Used_Cars_Sales_App.Properties.Resources.search;
+            pictureBox1.BackgroundImage = Properties.Resources.search;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Location = new Point(40, 26);
             pictureBox1.Name = "pictureBox1";
@@ -169,7 +170,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Used_Cars_Sales_App.Properties.Resources.N_logo;
+            BackgroundImage = Properties.Resources.N_logo;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1195, 785);
             Controls.Add(groupBox3);

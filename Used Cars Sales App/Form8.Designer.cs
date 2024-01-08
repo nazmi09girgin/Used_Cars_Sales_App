@@ -83,6 +83,7 @@
             // textBox6
             // 
             textBox6.Location = new Point(191, 350);
+            textBox6.MaxLength = 11;
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(141, 30);
             textBox6.TabIndex = 12;
@@ -100,6 +101,7 @@
             // textBox5
             // 
             textBox5.Location = new Point(191, 284);
+            textBox5.MaxLength = 2;
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(141, 30);
             textBox5.TabIndex = 9;
@@ -179,7 +181,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackgroundImage = Used_Cars_Sales_App.Properties.Resources.user;
+            pictureBox1.BackgroundImage = Properties.Resources.user;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Location = new Point(655, 40);
             pictureBox1.Name = "pictureBox1";
@@ -191,7 +193,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Used_Cars_Sales_App.Properties.Resources.N_logo;
+            BackgroundImage = Properties.Resources.N_logo;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1214, 609);
             Controls.Add(pictureBox1);
