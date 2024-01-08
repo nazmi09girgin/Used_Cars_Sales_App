@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Classlar.Arac">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAoAQAQAACAAAAAAARIAAAAABBACCAgAAACAAAQ=</HashCode>
+      <FileName>Arac.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Classlar.ElektrikliArac">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>ElektrikliArac.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Classlar.Kullanici">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAABAAAAAAQEABAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Kullanici.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Classlar.Motosiklet">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Motosiklet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Classlar.Otomobil">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Otomobil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Classlar.TicariArac">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAACAAAAAAAIAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>TicariArac.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Classlar.AracListeleri">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAIBAAEABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>AracListeleri.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Classlar.IArac">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAgAQAQAACAAAAAAARIAAAAABBACCAgAAACAAAQ=</HashCode>
+      <FileName>IArac.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
